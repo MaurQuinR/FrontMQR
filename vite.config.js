@@ -7,7 +7,5 @@ export default defineConfig({
     port: 8080,
   },
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      external: ['react-router-dom'],}}
+ 
 })
