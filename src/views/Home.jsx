@@ -6,7 +6,7 @@ import Context from '../Context';
 import { Filters } from "../components/Filters";
 
 export default function Home() {
-  const { products, setProducts, agregarAlCarro } = useContext(Context);
+  const { products, agregarAlCarro } = useContext(Context);
   const navigate = useNavigate();
   
 
